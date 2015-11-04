@@ -1,0 +1,868 @@
+<templateSet group="Polymer">
+  <template name="pe" value="&lt;dom-module id=&quot;$NAME$&quot;&gt;&#10;    &lt;style&gt;&#10;        &#10;    &lt;/style&gt;&#10;    &#10;    &lt;template&gt;&#10;        &#10;    &lt;/template&gt;&#10;&#10;    &lt;script&gt;&#10;        Polymer({&#10;            is: &quot;$NAME$&quot;,&#10;            &#10;            properties: {&#10;              $END$       &#10;            }&#10;        })&#10;    &lt;/script&gt;&#10;&lt;/dom-module&gt;" description="polymer element" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="iron-ajax" value="&lt;iron-ajax $VAR0$ url=&quot;$VAR1$&quot; handle-as=&quot;$VAR2$&quot; on-response=&quot;$VAR3$&quot;&gt;&lt;/iron-ajax&gt;" description="iron-ajax" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;auto&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;json&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;handleResponse&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-fab" value="&lt;paper-fab icon=&quot;$VAR1$&quot;&gt;&lt;/paper-fab&gt;" description="paper-fab" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;add&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="template" value="&lt;template$VAR0$&gt;$END$&lt;/template&gt;" description="template" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="webcomponents" value="&lt;script src=&quot;$VAR0$/webcomponentsjs/webcomponents-lite.js&quot;&gt;&lt;/script&gt;" description="web components polyfill" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;bower_components&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-input" value="&lt;paper-input label=&quot;$VAR0$&quot;&gt;&lt;/paper-input&gt;" description="paper-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-button" value="&lt;paper-button $VAR0$&gt;$END$&lt;/paper-button&gt;" description="paper-button" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;raised&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-checkbox" value="&lt;paper-checkbox $VAR0$&gt;$END$&lt;/paper-checkbox&gt;" description="paper-checkbox" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;checked&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-dialog-scrollable" value="&lt;paper-dialog&gt;&#10;      &lt;h2&gt;$VAR0$&lt;/h2&gt;&#10;      &lt;paper-dialog-scrollable&gt;&#10;        $END$&#10;      &lt;/paper-dialog-scrollable&gt;&#10;&lt;/paper-dialog&gt;" description="paper-dialog-scrollable" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;Dialog Title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-dialog" value="&lt;paper-dialog&gt;&#10;      &lt;h2&gt;$VAR0$&lt;/h2&gt;&#10;      $END$&#10;&lt;/paper-dialog&gt;" description="paper-dialog" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-drawer-panel" value="&lt;paper-drawer-panel&gt;&#10;      &lt;paper-header-panel drawer&gt;&#10;        &lt;paper-toolbar&gt;$VAR0$&lt;/paper-toolbar&gt;&#10;        $END$&#10;      &lt;/paper-header-panel&gt;&#10;      &lt;paper-header-panel main&gt;&#10;        &lt;paper-toolbar&gt;&#10;          &lt;paper-icon-button icon=&quot;menu&quot; paper-drawer-toggle&gt;&lt;/paper-icon-button&gt;&#10;          &lt;div class=&quot;flex&quot;&gt;$VAR1$&lt;/div&gt;&#10;        &lt;/paper-toolbar&gt;&#10;      &lt;/paper-header-panel&gt;&#10;&lt;/paper-drawer-panel&gt;" description="paper-drawer-panel" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;Menu&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;My App&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-header-panel" value="&lt;paper-header-panel class=&quot;flex&quot;&gt;&#10;  &lt;paper-toolbar&gt;$VAR0$&lt;/paper-toolbar&gt;&#10;  $END$&#10;&lt;/paper-header-panel&gt;&#10;&#10;      " description="paper-header-panel" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;Menu&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-icon-button" value="&lt;paper-icon-button icon=&quot;$VAR0$&quot;&gt;&lt;/paper-icon-button&gt;" description="paper-icon-button" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;add&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-item" value="&lt;paper-item&gt;$0&lt;/paper-item&gt;" description="paper-item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-material" value="&lt;paper-material elevation=&quot;$VAR0$&quot;&gt;&#10;      $END$&#10;&lt;/paper-material&gt;" description="paper-material" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="1" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-menu" value="&lt;paper-menu $VAR0$&gt;&#10;      &lt;paper-item&gt;Item 1&lt;/paper-item&gt;&#10;      &lt;paper-item&gt;Item 2&lt;/paper-item&gt;&#10;&lt;/paper-menu&gt;" description="paper-menu" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;multi&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-progress" value="&lt;paper-progress value=&quot;{{$VAR0$}}&quot;&gt;&lt;/paper-progress&gt;" description="paper-progress" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ph" value="   &lt;!DOCTYPE html&gt;&#10;    &lt;html&gt;&#10;      &lt;head&gt;&#10;        &lt;meta charset=&quot;utf-8&quot;&gt;&#10;        &lt;title&gt;$VAR0$&lt;/title&gt;&#10;        &lt;meta name=&quot;description&quot; content=&quot;$VAR1$&quot;&gt;&#10;        &lt;!-- Mobile --&gt;&#10;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#10;        &lt;!-- Chrome / Android --&gt;&#10;        &lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;&#10;        &lt;meta name=&quot;theme-color&quot; content=&quot;black&quot;&gt;&#10;        &lt;link rel=&quot;icon&quot; href=&quot;icon.png&quot;&gt;&#10;        &lt;!-- Safari / iOS --&gt;&#10;        &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;&#10;        &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;&#10;        &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;apple-touch-icon.png&quot;&gt;&#10;        &lt;!-- Web Components --&gt;&#10;        &lt;script src=&quot;../bower_components/webcomponentsjs/webcomponents-lite.js&quot;&gt;&lt;/script&gt;&#10;      &lt;/head&gt;&#10;      &lt;body class=&quot;fullbleed layout vertical&quot; unresolved&gt;&#10;        $END$&#10;      &lt;/body&gt;&#10; &lt;/html&gt;" description="Polymer page template" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;My App&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dom-repeat" value="&lt;template is=&quot;dom-repeat&quot; items=&quot;$VAR0$&quot; index-as=&quot;$VAR1$&quot;&gt;&#10;&#9;$END$&#10;&lt;/template&gt;" description="dom-repeat" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dom-if" value="&lt;template is=&quot;dom-if&quot; if=&quot;{{$VAR0$}}&quot;&gt;&#10;&#9;$END$&#10;&lt;/template&gt;" description="dom-if" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="hii" value="&lt;link rel=&quot;import&quot; href=&quot;$VAR0$/iron-$VAR1$/iron-$VAR1$.html&quot;&gt;" description="import iron-element" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;../../bower_components&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="hip" value="&lt;link rel=&quot;import&quot; href=&quot;$VAR0$/paper-$VAR1$/paper-$VAR1$.html&quot;&gt;" description="import paper-element" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;../../bower_components&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="hi" value="&lt;link rel=&quot;import&quot; href=&quot;$VAR0$/$VAR1$/$VAR1$.html&quot;&gt;" description="html import" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;../../bower_components&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-a11y-keys" value="&lt;iron-a11y-keys target=&quot;{{$VAR0$}}&quot; keys=&quot;$VAR1$&quot; on-keys-pressed=&quot;{{$VAR2$}}}&quot;&gt;&lt;/iron-a11y-keys&gt;" description="iron a11y keys" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;up down left right&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;arrowHandler&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-autogrow-textarea" value="&lt;iron-autogrow-textarea&gt;&#10;&#9;&lt;textarea&gt;&lt;/textarea&gt;&#10;&lt;/iron-autogrow-textarea&gt;" description="iron autogrow textarea" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-collapse" value="&lt;iron-collapse id=&quot;$VAR0$&quot;&gt;&#10;      Content goes here...&#10;&lt;/iron-collapse&gt;" description="iron-collapse" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;collapse&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-doc-viewer" value="&lt;iron-doc-viewer descriptor=&quot;{{$VAR0$}}&quot;&gt;&lt;/iron-doc-viewer&gt;" description="iron-doc-viewer" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;elementDescriptor&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-form" value="&lt;form is=&quot;iron-form&quot; id=&quot;$VAR0$&quot; method=&quot;$VAR1$&quot; action=&quot;$VAR2$}&quot;&gt;&#10;&#9;$END$&#10;&lt;/form&gt;" description="iron-form" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;form&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;post&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;/form/handler&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-icon" value="&lt;iron-icon icon=&quot;$END$&quot;&gt;&lt;/iron-icon&gt;" description="iron-icon" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-iconset-svg" value="&lt;iron-iconset-svg name=&quot;$VAR0$&quot; size=&quot;$VAR1$&quot;&gt;&#10;      $END$&#10;&lt;/iron-iconset-svg&gt;" description="iron-iconset-svg" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;my-icons&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-iconset" value="&lt;iron-iconset name=&quot;$VAR0$&quot; src=&quot;$VAR1$&quot; width=&quot;$VAR2$&quot; size=&quot;$VAR3$&quot; icons=&quot;$VAR4$&quot;&gt;&#10;&lt;/iron-iconset&gt;" description="iron-iconset" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;my-icons&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;my-icons.png&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="96" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="24" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot;location place starta stopb bus car train walk&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-image" value="&lt;iron-image src=&quot;$VAR0$&quot; $VAR1$ sizing=&quot;$VAR2$&quot;&gt;&lt;/iron-image&gt;" description="iron-image" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;preload&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;cover&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-input" value="&lt;input is=&quot;iron-input&quot; bind-value={{$VAR0$}}&quot;&quot;&gt;" description="iron-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;myValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-localstorage" value="&lt;iron-localstorage name=&quot;$VAR0$&quot; value=&quot;{{$VAR1$}}&quot;&gt;&lt;/iron-localstorage&gt;" description="iron-localstorage" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;my-app-storage&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-media-query" value="&lt;iron-media-query query=&quot;$VAR0$&quot; query-matches=&quot;{{$VAR1$}}}&quot;  on-query-matches-changed=&quot;$VAR2$&quot;&gt;&lt;/iron-media-query&gt;" description="iron media query" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;min-width: 640px&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;largeScreen&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;_switchLayout&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-meta" value="&lt;iron-meta key=&quot;$VAR0$&quot;&gt;&lt;/iron-meta&gt;" description="iron-meta" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="info" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-pages" value="&lt;iron-pages selected=&quot;$VAR0$&quot;&gt;&#10;      &lt;section&gt;$VAR1$&lt;/section&gt;&#10;      &lt;section&gt;$VAR2$&lt;/section&gt;&#10;      &lt;section&gt;$VAR3$&lt;/section&gt;&#10;&lt;/iron-pages&gt;" description="iron-pages" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="0" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iron-selector" value="&lt;iron-selector selected=&quot;$VAR0$}&quot;&gt;&#10;&#9;$END$&#10;&lt;/iron-selector&gt;" description="iron-selector" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="0" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-autogrow-textarea" value="&lt;paper-autogrow-textarea id=&quot;$VAR0$&quot;&gt;&#10;&#9;&lt;textarea id=&quot;$VAR1$&quot;&gt;&lt;/textarea&gt;&#10;&lt;paper-autogrow-textarea&gt;" description="paper autogrow textarea" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;a1&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;t1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-radio-button" value="&lt;paper-radio-button&gt;&lt;/paper-radio-button&gt;" description="paper-radio-button" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-radio-group" value="&lt;paper-radio-group selected=&quot;$VAR0$&quot;&gt;&#10;      &lt;paper-radio-button name=&quot;$VAR1$}&quot; label=&quot;$VAR2$}&quot;&gt;&lt;/paper-radio-button&gt;&#10;      &lt;paper-radio-button name=&quot;$VAR3$&quot; label=&quot;$VAR4$&quot;&gt;&lt;/paper-radio-button&gt;&#10;      &lt;paper-radio-button name=&quot;$VAR5$&quot; label=&quot;$VAR6$&quot;&gt;&lt;/paper-radio-button&gt;&#10;&lt;/paper-radio-group&gt;" description="paper-radio-group" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;small&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;small&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;Small&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;medium&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot;Medium&quot;" alwaysStopAt="true" />
+    <variable name="VAR5" expression="" defaultValue="&quot;large&quot;" alwaysStopAt="true" />
+    <variable name="VAR6" expression="" defaultValue="&quot;Small&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-ripple" value="&lt;paper-ripple&gt;&lt;/paper-ripple&gt;" description="paper-ripple" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-scroll-header-panel" value="&lt;paper-scroll-header-panel $VAR0$} class=&quot;flex&quot;&gt;&#10;      &lt;paper-toolbar&gt;&#10;        &lt;div&gt;$VAR1$&lt;/div&gt;&#10;      &lt;/paper-toolbar&gt;&#10;      &lt;div&gt;$VAR2$Page content&lt;/div&gt;&#10;&lt;/paper-scroll-header-panel&gt;" description="paper-scroll-header-panel" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;condenses&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;My App&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;Page content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-slider" value="&lt;paper-slider min=&quot;$VAR0$&quot; max=&quot;$VAR1$&quot; value=&quot;$VAR2$&quot;&gt;&lt;/paper-slider&gt;" description="paper-slider" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="10" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="100" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="110" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-spinner" value="&lt;paper-spinner $VAR0$&gt;&lt;/paper-spinner&gt;" description="paper-spinner" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;active&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-tab" value="&lt;paper-tab&gt;$END$&lt;/paper-tab&gt;" description="paper-tab" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-tabs" value="&lt;paper-tabs selected=&quot;$VAR0$}&quot;&gt;&#10;      &lt;paper-tab&gt;$VAR1$&lt;/paper-tab&gt;&#10;      &lt;paper-tab&gt;$VAR2$&lt;/paper-tab&gt;&#10;      &lt;paper-tab&gt;$VAR3$}&lt;/paper-tab&gt;&#10;&lt;/paper-tabs&gt;" description="paper-tabs" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="0" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;TAB 1&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;TAB 2&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;TAB 3&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-toast" value="&lt;paper-toast text=&quot;$VAR0$&quot;&gt;$END$&lt;/paper-toast&gt;" description="paper-toast" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;Your draft has been discarded.&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-toggle-button" value="&lt;paper-toggle-button $VAR0$&gt;&lt;/paper-toggle-button&gt;" description="paper-toggle-button" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;checked&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="paper-toolbar" value="&lt;paper-toolbar class=&quot;$VAR0$&quot;&gt;&#10;&#9;$END$&#10;&lt;/paper-toolbar&gt;" description="paper-toolbar" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;tall&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pes" value="&lt;dom-module id=&quot;$VAR0$&quot;&gt;&#10;      &lt;link rel=&quot;import&quot; type=&quot;css&quot; href=&quot;$VAR1$.css&quot;&gt;&#10;      &lt;template&gt;&#10;        $VAR2$&#10;      &lt;/template&gt;&#10;      &lt;script&gt;&#10;        Polymer({&#10;          is: '$VAR0$'&#10;        });&#10;      &lt;/script&gt;&#10;&lt;/dom-module&gt;" description="polymer element, external styles" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="animationConfig" value="&#10;animationConfig: {&#10;        value: function() {&#10;          return {&#10;            'entry': [{&#10;              name: 'slide-from-right-animation',&#10;              node: this&#10;            }$VAR0$],&#10;            'exit': [{&#10;              name: 'slide-right-animation',&#10;              node: this&#10;            }$VAR1$]&#10;          }&#10;        }&#10;      }$END$," description="animationConfig" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="template:bind" value="&#9;&lt;template is=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot;&gt;&#10;&#9;&#9;$END$  &#10;&#9;&lt;/template&gt;" description="template is=&quot;dom-bind&quot;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;dom-bind&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="neon-animated-pages" value="&lt;neon-animated-pages selected=&quot;[[$VAR0$]]&quot; entry-animation=&quot;slide-right-animation&quot; exit-animation=&quot;slide-left-animation&quot;&gt;&#10;&#9;&lt;animatable&gt;&#10;&#9;&#9;$END$&#10;&#9;&lt;/animatable&gt;&#10;&lt;/neon-animated-pages&gt;" description="neon-animated-pages" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;selected&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gold-cc-cvc-input" value="&lt;gold-cc-cvc-input name=&quot;$VAR0$&quot; required auto-validate card-type=&quot;[[$VAR1$]]&quot;&gt;&lt;/gold-cc-cvc-input&gt;" description="gold-cc-cvc-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;cc-cvc&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;typeOfCard&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gold-cc-expiration-input" value="&lt;gold-cc-expiration-input name=&quot;$VAR0$&quot; required auto-validate label=&quot;$VAR1$&quot;&gt;&lt;/gold-cc-expiration-input&gt;" description="gold-cc-expiration-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;cc-exp&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;Expiration&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gold-cc-input" value="&lt;gold-cc-input name=&quot;$VAR0$&quot; required auto-validate card-type=&quot;{{$VAR1$}}&quot;&gt;&lt;/gold-cc-input&gt;&#10;" description="gold-cc-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;cc-number&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;typeOfCard&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gold-email-input" value="&lt;gold-email-input name=&quot;$VAR0$&quot; label=&quot;$VAR1$&quot;&gt;&lt;/gold-email-input&gt;" description="gold-email-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;email&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;Email&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gold-phone-input" value="&lt;gold-phone-input&#10;&#9;name=&quot;$VAR0$&quot;&#10;  country-code=&quot;$VAR1$&quot;&#10;  phone-number-pattern=&quot;$VAR2$&quot;&gt;&#10;&lt;/gold-phone-input&gt;" description="gold-phone-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;phone&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;XXX-XXX-XXXX&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gold-zip-input" value="&lt;gold-zip-input name=&quot;$VAR0$&quot; label=&quot;$VAR1$&quot;&gt;&lt;/gold-zip-input&gt;" description="gold-zip-input" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;postal-code&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;Postal Code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gold-form" value="&lt;div class=&quot;horizontal layout center form-title&quot;&gt;&#10;  &lt;div class=&quot;avatar&quot; item-icon&gt;&lt;/div&gt;&#10;  &lt;div class=&quot;flex company&quot;&gt;ACME Goods Co.&lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;form is=&quot;iron-form&quot; id=&quot;form&quot; method=&quot;post&quot; action=&quot;/checkout&quot;&gt;&#10;&#10;  &lt;paper-input name=&quot;name&quot; label=&quot;Name on card&quot; required autocomplete=&quot;cc-name&quot;&gt;&lt;/paper-input&gt;&#10;&#10;  &lt;gold-cc-input name=&quot;cc-number&quot; required auto-validate card-type=&quot;{{typeOfCard}}&quot;&gt;&lt;/gold-cc-input&gt;&#10;&#10;  &lt;div class=&quot;horizontal layout&quot;&gt;&#10;    &lt;gold-cc-expiration-input name=&quot;cc-exp&quot; required auto-validate label=&quot;Expiration&quot;&gt;&lt;/gold-cc-expiration-input&gt;&#10;    &lt;gold-cc-cvc-input name=&quot;cc-cvc&quot; required card-type=&quot;[[typeOfCard]]&quot;&gt;&lt;/gold-cc-cvc-input&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;paper-button on-click=&quot;_submit&quot;&gt;Pay&lt;/paper-button&gt;&#10;&#10;&lt;/form&gt;" description="gold-form" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pe6" value="&lt;dom-module id=&quot;$VAR0$&quot;&gt;&#10;    &lt;template&gt;&#10;      &lt;style&gt;&#10;        &#10;      &lt;/style&gt;    &#10;      &#10;    &lt;/template&gt;&#10;&#10;    &lt;script&gt;&#10;&#9;&#9;&#9;class $VAR1$ {&#10;&#9;&#9;     beforeRegister() {&#10;&#9;&#9;       &#10;&#9;&#9;       this.is = '$VAR0$';&#10;&#9;&#9;       this.properties = {&#10;&#9;&#9;          $END$     &#10;&#9;&#9;       };&#10;&#9;&#9;     }&#10;&#9;&#9;     created() {}&#10;&#9;&#9;     ready() {}&#10;&#9;&#9;     attached() {}&#10;&#9;&#9;     detached() {}&#10;&#9;&#9;     attributeChanged() {}&#10;&#9;&#9;    }&#10;&#9;&#9;&#10;&#9;&#9;    Polymer($VAR1$);&#10;    &lt;/script&gt;&#10;&lt;/dom-module&gt;" description="polymer element ES6 / ES2015" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="capitalize(VAR0)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="pe6-orig" value="&lt;dom-module id=&quot;$VAR0$&quot;&gt;&#10;    &lt;template&gt;&#10;      &lt;style&gt;&#10;        &#10;      &lt;/style&gt;    &#10;      &#10;    &lt;/template&gt;&#10;&#10;    &lt;script&gt;&#10;&#9;&#9;&#9;class $NAME$ {&#10;&#9;&#9;     beforeRegister() {&#10;&#9;&#9;       &#10;&#9;&#9;       this.is = '$VAR0$';&#10;&#9;&#9;       this.properties = {&#10;&#9;&#9;         &#10;&#9;&#9;       };&#10;&#9;&#9;     }&#10;&#9;&#9;     created() {}&#10;&#9;&#9;     ready() {}&#10;&#9;&#9;     attached() {}&#10;&#9;&#9;     detached() {}&#10;&#9;&#9;     attributeChanged() {}&#10;&#9;&#9;    }&#10;&#9;&#9;&#10;&#9;&#9;    Polymer($VAR1$);&#10;    &lt;/script&gt;&#10;&lt;/dom-module&gt;" description="polymer element ES6 / ES2015" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;my-element&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="groovyScript(&quot;C:\\Users\\FV_2\\.WebStorm11\\config\\templates\\dashToCamelCase2.groovy&quot;, VAR0)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="capitalize(VAR0)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="anim:hero:exit" value="&#9;{&#10;&#9;  name: 'hero-animation',&#10;&#9;  id: 'hero',&#10;&#9;  fromPage: this&#10;&#9;}" description="Hero animation Exit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ahex" value="&#9;{&#10;&#9;  name: 'hero-animation',&#10;&#9;  id: 'hero',&#10;&#9;  fromPage: this&#10;&#9;}" description="Hero animation Exit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ahe" value="&#9;{&#10;&#9;  name: 'hero-animation',&#10;&#9;  id: 'hero',&#10;&#9;  toPage: this&#10;&#9;}" description="Hero animation entry" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="anim:hero:entry" value="&#9;{&#10;&#9;  name: 'hero-animation',&#10;&#9;  id: 'hero',&#10;&#9;  toPage: this&#10;&#9;}" description="Hero animation Entry" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="anim:ripple:entry" value="&#9;{&#10;&#9;  name: 'ripple-animation',&#10;&#9;  id: 'ripple',&#10;&#9;  toPage: this&#10;&#9;}&#9;" description="Ripple animation Entry" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="are" value="&#9;{&#10;&#9;  name: 'ripple-animation',&#10;&#9;  id: 'ripple',&#10;&#9;  toPage: this&#10;&#9;}&#9;" description="Ripple animation Entry" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="arex" value="&#9;{&#10;&#9;  name: 'ripple-animation',&#10;&#9;  id: 'ripple',&#10;&#9;  fromPage: this&#10;&#9;}&#9;" description="Ripple animation Exit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="anim:ripple:exit" value="&#9;{&#10;&#9;  name: 'ripple-animation',&#10;&#9;  id: 'ripple',&#10;&#9;  fromPage: this&#10;&#9;}&#9;" description="Ripple animation Exit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="dom-bind" value="&lt;template is=&quot;dom-bind&quot; id=&quot;{{$VAR0$}}&quot;&gt;&#10;&#9;$END$&#10;&lt;/template&gt;" description="dom-bind" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="nf" value="notify: $VAR0$" description="notify : true" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;true&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="prop:string" value="$VAR0$: {&#10;&#9;type: String,&#10;&#9;notify: $VAR1$,&#10;&#9;value: '$VAR2$'&#10;},$END$" description="String property declaration" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;myProp&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;true&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;initialValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="prop:array" value="$VAR0$: {&#10;&#9;type: Array,&#10;&#9;notify: $VAR1$,&#10;&#9;value: function() {&#10;&#9;&#9;return [];&#10;&#9;}&#10;},$END$" description="Array property declaration" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;myProp&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;true&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ac" value="&#10;animationConfig: {&#10;        value: function() {&#10;          return {&#10;            'entry': [{&#10;              name: 'slide-from-right-animation',&#10;              node: this&#10;            }$VAR0$],&#10;            'exit': [{&#10;              name: 'slide-right-animation',&#10;              node: this&#10;            }$VAR1$]&#10;          }&#10;        }&#10;      }$END$," description="animationConfig" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="prop" value="properties: {&#10;&#9;$END$       &#10;}" description="properties declaration" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
