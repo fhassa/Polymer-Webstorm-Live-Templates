@@ -1,5 +1,4 @@
-# Polymer-Webstorm-Live-Templates
-Polymer Live Templates for JetBrains WebStorm
+# Polymer Live Templates for WebStorm
 ===========================
 
 Live templates to be used in WebStorm with Polymer (Polymer-Project)
@@ -14,8 +13,6 @@ These abbreviations significantly speed up development and reduce coding errors.
 
 ##Installation
 
-##WebStorm
-
 WebStorm does not have any particular installation (or import) procedure for LiveTemplates.
 Instead just drop `Polymer.xml` file from this repository into WebStorm's folder where it stores LiveTemplates.
 
@@ -29,7 +26,8 @@ MacOS: ~/Library/Preferences/<product name><version number>/templates
 
 
 ##How to use the Live Templates
-The following show the available abbrivations and their default implementations. All input fields of the templates are variables thus Tabbing futher will jump to the next variable of the template.
+Type  (eg. pe) then hit `tab` to auto-complete,
+OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search for a completion
 
 ## Elements
 
