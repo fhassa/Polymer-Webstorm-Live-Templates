@@ -1,5 +1,4 @@
 # Polymer Live Templates for WebStorm
-===========================
 
 Live templates to be used in WebStorm with Polymer (Polymer-Project)
 
